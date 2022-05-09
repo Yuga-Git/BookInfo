@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:background="#f0f4c3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_fragment"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#e91e63"/>
+
+    <ImageView
+        android:id="@+id/imgbutterrfly"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/tony_stark_new" />
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tony Stark"
+        android:layout_below="@+id/imgbutterrfly"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#283593"/>
+
+    <TextView
+        android:id="@+id/textemailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="tonystark@gmail.com"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/textname"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#880e4f"/>
+
+    <TextView
+        android:id="@+id/textmob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="+91 9424523485"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textemailid"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#880e4f"/>
+
+    <TextView
+        android:id="@+id/txtaddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Newyork, America"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/textmob"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="#880e4f"/>
+
+</RelativeLayout>
